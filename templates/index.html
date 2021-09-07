@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css"/>
+    </head>
+    <body>
+        <h1>John's Favorite Shows</h1>
+            <ol>
+                {%for i in range(0, length)%}
+                    {%if shows[i] == "Haikyuu"%}
+                        <li class="favorite">{{shows[i]}}</li>
+                    {%else%}
+                        <li>{{shows[i]}}</li>
+                    {%endif%}
+                    <img src={{images[i]}} width=400 height=400/>
+                {%endfor%} 
+            </ol>
+    </body>
+</html>

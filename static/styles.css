@@ -1,0 +1,12 @@
+body {
+    background-color: goldenrod;
+    font-family: Arial;
+}
+
+ol li {
+    font-size: 36;
+}
+
+ol .favorite {
+    color: blue
+}
